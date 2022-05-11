@@ -16,7 +16,8 @@ import {
            setOrToggleMapSelectedGridId
        } from '../store/actions/mapActions';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZGFyd2luemVyMCIsImEiOiJjY2FjNTNhZDQyODcyMzQyMmI3N2ZjMzBkYWI2YzdiYyJ9.XEGc-X2AJddP9v8W1wbzEA';
+// TODO: make an env variable
+mapboxgl.accessToken = 'PUT_API_TOKEN_HERE';
 
 class Map extends Component {
     map = null;
